@@ -1,38 +1,110 @@
-.App {
+h1 {
   text-align: center;
+  color: white;
+  font-family: 'PT Sans', sans-serif; 
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Chart {
+  background-color: #f2bb5c;
+  margin: 0 20% 0 20%;
+  height: 70vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Chart img {
+  height: 100%;
+  width: 100%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.buttons {
+  margin-top: 10px;
+  color: white;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  flex-wrap: wrap;
+  height: 100px;
+}
+
+select {
+  color: white;
+  background-color: #2265f5;
+  border-radius: 20px;
+  font-weight: bold;
+  opacity: 60%;
+}
+
+select:hover {
+  opacity: 100%;
+}
+
+.button {
+  height: 2.3rem;
+  width: 12rem;
+  font-size: 110%;
+}
+
+h2 {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.frame {
+  border: 1px solid white;
+  background-color: #363535;
+  border-radius: 10px;
+  margin: 0px 50px 50px 50px;
+  text-align: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.first-row {
+  margin-bottom: 10px;
 }
+
+.input-form .button {
+  margin-left: 10px;
+}
+
+.output-form {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+
+div > .button
+{
+  margin-top: 10px;
+}
+
+.output-form .first-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.output-form .second-col {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+label {
+  text-align: left;
+}
+
+form {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+input {
+  background-color: black;
+  border: 1px solid white;
+  color: white;
+  width: 100%;
+}
+
+.copyright {
+  text-align: right;
+}
+

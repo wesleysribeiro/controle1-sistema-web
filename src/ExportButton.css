@@ -1,0 +1,20 @@
+button {
+  border-radius: 10px;
+  font-weight: bold;
+  background-color: #f58f22;
+  border-color: #f58f22;
+  height: 2.3rem;
+  color: white;
+}
+
+button:hover {
+  background-color: #f0c022;
+  border-color: #f0c022;
+  transform: scale(1.03);
+  transition-duration: .3s;
+}
+
+button > a {
+	text-decoration: none;
+	color: white;
+}
