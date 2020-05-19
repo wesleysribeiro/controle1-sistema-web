@@ -70,7 +70,7 @@ class OutputForm extends React.Component {
             <label> Informe a tensão (em V)</label>
 			<select id="chart-type" className="button" onChange={this.signalChanged}>
 	                <option value="chart-1">Degrau</option>
-	                <option value="chart-2">Rampa crescente</option>
+	                <option value="chart-2" selected>Rampa crescente</option>
 	                <option value="chart-3">Rampa decrescente</option> 
 	        </select>
           </div>  
