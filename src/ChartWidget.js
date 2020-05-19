@@ -70,7 +70,7 @@ class ChartWidget extends React.Component {
 						myChart.update(0);
 					});
 				});
-		}, 800);
+		}, 600);
 	}
 
 	render = () => {

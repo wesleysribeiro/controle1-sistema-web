@@ -27,9 +27,9 @@ class InputForm extends React.Component {
 		return (
 			<form className="input-form">
           		<select id="sampling-frequency" className="button" onChange={this.onChange}>
-              		<option value="frequency-1">10 Hz</option>
-              		<option value="frequency-2">20 Hz</option>
-              		<option value="frequency-3">50 Hz</option> 
+              		<option value="frequency-1">1 Hz</option>
+              		<option value="frequency-2">3 Hz</option>
+              		<option value="frequency-3">10 Hz</option> 
           		</select>
           		<ExportButton value="Exportar para CSV"/> 
        		</form>
